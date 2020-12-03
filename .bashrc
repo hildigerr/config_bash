@@ -63,5 +63,5 @@ echo "|_______|------------------|_______|"
 
 ##FORTUNE COOKIE
 echo
-fortune ~/.fortunecookies/havamal.txt
+fortune havamal
 echo
