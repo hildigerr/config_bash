@@ -38,7 +38,7 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-EDITOR=ed
+export EDITOR=ed
 
 PACKAGER="Hildigerr Vergaray <Maintainer@YmirSystems.com>"
 GPGKEY=CC81DADFA8ED700ECC226BD9688517121CD720CF
