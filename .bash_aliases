@@ -11,6 +11,10 @@ alias clean='find . -empty -type d -delete'
 alias lss='ls | grep'
 alias hgrep='history | grep'
 
+mime-name () {
+    grep $1 /usr/share/mime/globs | egrep -o '.+\/[^:]+' | tr '/' '-'
+}
+
 #Zelda-Ocarina of Time
 #alias oot='mupen64plus --fullscreen --nogui ~/Games/ROM/N64/Legend\ of\ Zelda\,\ The\ -\ Ocarina\ of\ Time\ \(U\)\ \(V1.2\)\ \[\!\].z64'
 
