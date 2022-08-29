@@ -9,6 +9,8 @@
 # See bash(1) for more options
 HISTCONTROL=ignoreboth:erasedups
 
+HISTIGNORE="w:l[sla]:[bf]g:pwd:clear:git status:exit"
+
 # append to the history file, don't overwrite it
 shopt -s histappend
 
