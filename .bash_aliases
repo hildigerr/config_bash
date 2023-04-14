@@ -15,6 +15,8 @@ mime-name () {
     grep $1 /usr/share/mime/globs | egrep -o '.+\/[^:]+' | tr '/' '-'
 }
 
+alias youtube-dl='yt-dlp'
+
 #Zelda-Ocarina of Time
 #alias oot='mupen64plus --fullscreen --nogui ~/Games/ROM/N64/Legend\ of\ Zelda\,\ The\ -\ Ocarina\ of\ Time\ \(U\)\ \(V1.2\)\ \[\!\].z64'
 
