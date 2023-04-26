@@ -20,9 +20,9 @@ alias youtube-dl='yt-dlp'
 #Zelda-Ocarina of Time
 #alias oot='mupen64plus --fullscreen --nogui ~/Games/ROM/N64/Legend\ of\ Zelda\,\ The\ -\ Ocarina\ of\ Time\ \(U\)\ \(V1.2\)\ \[\!\].z64'
 
-#Star Trek console game in zcode
-#alias ztrek='frotz ~/Games/IF/z-games/ztrek.z5'
-
+# Interactive Fiction Ports
+alias ztrek='frotz ~/Games/IF/ztrek.z5'
+alias zrogue='frotz ~/Games/IF/rogue.z5'
 
 #assembly language compiler
 #alias yasm64='yasm -f elf64'
