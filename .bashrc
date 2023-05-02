@@ -52,23 +52,23 @@ GPGKEY=CC81DADFA8ED700ECC226BD9688517121CD720CF
 
 ##BANNERS:
 
-echo
-echo "                 |ZZzzz"
-echo "                 |"
-echo "                 |"
-echo "    |ZZzzz      /^\            |ZZzzz"
-echo "    |          |~~~|           |"
-echo "    |        |^^^^^^^|        / \ "
-echo "   /^\       |[]+    |       |~~~|"
-echo "|^^^^^^^|    |    +[]|       |   |"
-echo "|    +[]|/\/\/\/\^/\/\/\/\/|^^^^^^^|"
-echo "|+[]+   |~~~~~~~~~~~~~~~~~~|    +[]|"
-echo "|       |  []   /^\   []   |+[]+   |"
-echo "|   +[]+|  []  || ||  []   |   +[]+|"
-echo "|[]+    |      || ||       |[]+    |"
-echo "|_______|------------------|_______|"
+# echo
+# echo "                 |ZZzzz"
+# echo "                 |"
+# echo "                 |"
+# echo "    |ZZzzz      /^\            |ZZzzz"
+# echo "    |          |~~~|           |"
+# echo "    |        |^^^^^^^|        / \ "
+# echo "   /^\       |[]+    |       |~~~|"
+# echo "|^^^^^^^|    |    +[]|       |   |"
+# echo "|    +[]|/\/\/\/\^/\/\/\/\/|^^^^^^^|"
+# echo "|+[]+   |~~~~~~~~~~~~~~~~~~|    +[]|"
+# echo "|       |  []   /^\   []   |+[]+   |"
+# echo "|   +[]+|  []  || ||  []   |   +[]+|"
+# echo "|[]+    |      || ||       |[]+    |"
+# echo "|_______|------------------|_______|"
 
 ##FORTUNE COOKIE
 echo
-fortune havamal
+fortune havamal | boxes -d parchment
 echo
