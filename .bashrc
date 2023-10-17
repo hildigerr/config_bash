@@ -22,6 +22,7 @@ PS1='\u@\h:\w\$ '
 
 # Enforce XDG Base Directory Specification Compliance
 export XDG_STATE_HOME="$HOME/.local/state"
+export SQLITE_HISTORY="$XDG_STATE_HOME/sqlite_history"
 
 # Alias definitions.
 if [ -f ~/.config/bash/.bash_aliases ]; then
