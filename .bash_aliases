@@ -6,8 +6,6 @@
 alias cls='clear'
 alias CLS='cls'
 
-alias clean='find . -empty -type d -delete'
-
 #  Searching
 alias lss='ls | grep'
 alias hgrep='history | grep'
