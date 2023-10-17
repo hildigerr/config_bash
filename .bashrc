@@ -20,6 +20,9 @@ HISTFILESIZE=10000
 
 PS1='\u@\h:\w\$ '
 
+# Enforce XDG Base Directory Specification Compliance
+export XDG_STATE_HOME="$HOME/.local/state"
+
 # Alias definitions.
 if [ -f ~/.config/bash/.bash_aliases ]; then
     . ~/.config/bash/.bash_aliases
