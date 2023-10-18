@@ -6,6 +6,9 @@
 alias cls='clear'
 alias CLS='cls'
 
+# Enforce XDG Base Directory Specification Compliance
+alias wget='wget --hsts-file="$XDG_STATE_HOME/wget-hsts"'
+
 # enable color support of ls and grep
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
