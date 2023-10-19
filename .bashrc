@@ -24,6 +24,7 @@ PS1='\u@\h:\w\$ '
 export XDG_STATE_HOME="$HOME/.local/state"
 export SQLITE_HISTORY="$XDG_STATE_HOME/sqlite_history"
 export PYTHONSTARTUP="$HOME/.config/pythonrc"
+export NODE_REPL_HISTORY="$XDG_STATE_HOME/node_repl_history"
 
 # Alias definitions.
 if [ -f ~/.config/bash/.bash_aliases ]; then
