@@ -22,15 +22,15 @@ PS1='\u@\h:\w\$ '
 
 # Enforce XDG Base Directory Specification Compliance
 export XDG_STATE_HOME="$HOME/.local/state"
-export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
+export GTK2_RC_FILES="${XDG_CONFIG_HOME:-${HOME}/.config}/gtk-2.0/gtkrc"
 export SQLITE_HISTORY="$XDG_STATE_HOME/sqlite_history"
-export PYTHONSTARTUP="$HOME/.config/pythonrc"
+export PYTHONSTARTUP="${XDG_CONFIG_HOME:-${HOME}/.config}/pythonrc"
 export NODE_REPL_HISTORY="$XDG_STATE_HOME/node_repl_history"
 export LESSHISTFILE="$XDG_STATE_HOME/less_history"
 
 # Alias definitions.
-if [ -f ~/.config/bash/.bash_aliases ]; then
-    . ~/.config/bash/.bash_aliases
+if [ -f "${XDG_CONFIG_HOME:-${HOME}/.config}/bash/.bash_aliases" ]; then
+    . "${XDG_CONFIG_HOME:-${HOME}/.config}/bash/.bash_aliases"
 fi
 
 # set PATH so it includes user's private bin if it exists
