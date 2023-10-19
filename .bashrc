@@ -22,6 +22,7 @@ PS1='\u@\h:\w\$ '
 
 # Enforce XDG Base Directory Specification Compliance
 export XDG_STATE_HOME="$HOME/.local/state"
+export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
 export SQLITE_HISTORY="$XDG_STATE_HOME/sqlite_history"
 export PYTHONSTARTUP="$HOME/.config/pythonrc"
 export NODE_REPL_HISTORY="$XDG_STATE_HOME/node_repl_history"
