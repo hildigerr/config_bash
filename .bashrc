@@ -22,11 +22,12 @@ PS1='\u@\h:\w\$ '
 
 # Enforce XDG Base Directory Specification Compliance
 export XDG_STATE_HOME="$HOME/.local/state"
-export GTK2_RC_FILES="${XDG_CONFIG_HOME:-${HOME}/.config}/gtk-2.0/gtkrc"
-export SQLITE_HISTORY="$XDG_STATE_HOME/sqlite_history"
-export PYTHONSTARTUP="${XDG_CONFIG_HOME:-${HOME}/.config}/pythonrc"
-export NODE_REPL_HISTORY="$XDG_STATE_HOME/node_repl_history"
 export LESSHISTFILE="$XDG_STATE_HOME/less_history"
+export SQLITE_HISTORY="$XDG_STATE_HOME/sqlite_history"
+export NODE_REPL_HISTORY="$XDG_STATE_HOME/node_repl_history"
+
+export GTK2_RC_FILES="${XDG_CONFIG_HOME:-${HOME}/.config}/gtk-2.0/gtkrc"
+export PYTHONSTARTUP="${XDG_CONFIG_HOME:-${HOME}/.config}/pythonrc"
 
 # Alias definitions.
 if [ -f "${XDG_CONFIG_HOME:-${HOME}/.config}/bash/.bash_aliases" ]; then
