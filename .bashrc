@@ -29,6 +29,8 @@ export NODE_REPL_HISTORY="$XDG_STATE_HOME/node_repl_history"
 export GTK2_RC_FILES="${XDG_CONFIG_HOME:-${HOME}/.config}/gtk-2.0/gtkrc"
 export PYTHONSTARTUP="${XDG_CONFIG_HOME:-${HOME}/.config}/pythonrc"
 
+export ANDROID_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/android"
+
 # Alias definitions.
 if [ -f "${XDG_CONFIG_HOME:-${HOME}/.config}/bash/.bash_aliases" ]; then
     . "${XDG_CONFIG_HOME:-${HOME}/.config}/bash/.bash_aliases"

@@ -8,6 +8,7 @@ alias CLS='cls'
 
 # Enforce XDG Base Directory Specification Compliance
 alias wget='wget --hsts-file="$XDG_STATE_HOME/wget-hsts"'
+alias adb='HOME="$ANDROID_HOME" adb'
 
 # enable color support of ls and grep
 alias ls='ls --color=auto'
