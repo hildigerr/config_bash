@@ -26,6 +26,8 @@ export LESSHISTFILE="$XDG_STATE_HOME/less_history"
 export SQLITE_HISTORY="$XDG_STATE_HOME/sqlite_history"
 export NODE_REPL_HISTORY="$XDG_STATE_HOME/node_repl_history"
 
+export DVDCSS_CACHE="${XDG_CACHE_HOME:-${HOME}/.cache}/dvdcss"
+
 export GTK2_RC_FILES="${XDG_CONFIG_HOME:-${HOME}/.config}/gtk-2.0/gtkrc"
 export PYTHONSTARTUP="${XDG_CONFIG_HOME:-${HOME}/.config}/pythonrc"
 
