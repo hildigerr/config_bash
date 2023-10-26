@@ -49,4 +49,4 @@ alias run='clear; ./a.out'
 #alias mount_iso='mount -o loop disk1.iso /mnt/disk'
 
 alias myip-lan="ip -4 a|grep -oP '(?<=inet\s)\d+(\.\d+){3}'|grep -v '127.0.0.1'"
-alias myip-wan="curl ifconfig.me/ip"
+alias myip-wan="curl https://ifconfig.me/ip"
