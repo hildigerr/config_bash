@@ -28,6 +28,7 @@ export NODE_REPL_HISTORY="$XDG_STATE_HOME/node_repl_history"
 
 export DVDCSS_CACHE="${XDG_CACHE_HOME:-${HOME}/.cache}/dvdcss"
 
+export ASPELL_CONF="per-conf ${XDG_CONFIG_HOME:-${HOME}/.config}/aspell/aspell.conf; personal ${XDG_CONFIG_HOME:-${HOME}/.config}/aspell/en.pws; repl ${XDG_CONFIG_HOME:-${HOME}/.config}/aspell/en.prepl"
 export GTK2_RC_FILES="${XDG_CONFIG_HOME:-${HOME}/.config}/gtk-2.0/gtkrc"
 export PYTHONSTARTUP="${XDG_CONFIG_HOME:-${HOME}/.config}/pythonrc"
 
