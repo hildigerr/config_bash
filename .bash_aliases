@@ -50,3 +50,6 @@ alias run='clear; ./a.out'
 
 alias myip-lan="ip -4 a|grep -oP '(?<=inet\s)\d+(\.\d+){3}'|grep -v '127.0.0.1'"
 alias myip-wan="curl https://ifconfig.me/ip"
+alias myip-wan-alt="curl https://ipecho.net/plain"
+alias myip-wan-ipv4="curl http://checkip.dyndns.com/"
+
