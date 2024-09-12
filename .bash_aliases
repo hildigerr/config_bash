@@ -22,7 +22,6 @@ alias l='ls -CF'
 #  Searching
 alias lss='ls | grep'
 alias hgrep='history | grep'
-alias vidgrep=~/Workspace/Video/find.sh
 
 mime-name () {
     grep $1 /usr/share/mime/globs | egrep -o '.+\/[^:]+' | tr '/' '-'
