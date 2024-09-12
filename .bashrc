@@ -53,6 +53,7 @@ export EDITOR=ed
 
 PACKAGER="Hildigerr Vergaray <Maintainer@YmirSystems.com>"
 GPGKEY=CC81DADFA8ED700ECC226BD9688517121CD720CF
+CHROOT="${HOME}/Workspace/arch-repo/chroot"
 
 ##BANNERS:
 
