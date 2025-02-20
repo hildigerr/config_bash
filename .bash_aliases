@@ -46,6 +46,11 @@ alias run='clear; ./a.out'
 
 #was a script now just an alias:
 #alias mount_iso='mount -o loop disk1.iso /mnt/disk'
+ripiso () {
+  dd if=/dev/sr0 of=${1:-/tmp/dump.iso} \
+     bs=2048 count=$(isosize -d 2048 /dev/sr0) \
+     status=progress
+}
 
 #  Networking
 alias myip-lan="ip -4 a|grep -oP '(?<=inet\s)\d+(\.\d+){3}'|grep -v '127.0.0.1'"
