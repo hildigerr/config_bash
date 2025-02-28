@@ -28,6 +28,7 @@ mime-name () {
 }
 
 #  Alternatives
+alias finger=pinky
 alias youtube-dl='yt-dlp'
 
 #  Games
