@@ -20,16 +20,16 @@ fi
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/.local/bin" ] ; then
-    PATH="$HOME/.local/bin:$PATH"
+    export PATH="$HOME/.local/bin:$PATH"
 fi
 
 # set MANPATH so it includes user's private manpages if they exist
 if [ -d "$HOME/.local/man" ] ; then
-    MANPATH="$HOME/.local/man:MANPATH"
+    export MANPATH="$HOME/.local/man:MANPATH"
 fi
 
 export EDITOR=ed
 
-PACKAGER="Hildigerr Vergaray <Maintainer@YmirSystems.com>"
-GPGKEY=CC81DADFA8ED700ECC226BD9688517121CD720CF
-CHROOT="${HOME}/Workspace/arch-repo/chroot"
+export PACKAGER="Hildigerr Vergaray <Maintainer@YmirSystems.com>"
+export GPGKEY=CC81DADFA8ED700ECC226BD9688517121CD720CF
+export CHROOT="${HOME}/Workspace/arch-repo/chroot"
