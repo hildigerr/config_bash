@@ -25,7 +25,7 @@ fi
 
 # set MANPATH so it includes user's private manpages if they exist
 if [ -d "$HOME/.local/man" ] ; then
-    export MANPATH="$HOME/.local/man:MANPATH"
+    export MANPATH="$HOME/.local/man:$MANPATH"
 fi
 
 export EDITOR=ed
