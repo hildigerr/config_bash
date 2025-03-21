@@ -20,6 +20,11 @@ HISTFILESIZE=10000
 
 PS1='\u@\h:\w\$ '
 
+# Alias definitions.
+if [ -f "${XDG_CONFIG_HOME:-${HOME}/.config}/bash/aliases" ]; then
+    . "${XDG_CONFIG_HOME:-${HOME}/.config}/bash/aliases"
+fi
+
 ##BANNERS:
 
 # echo

@@ -13,11 +13,6 @@ export PYTHONSTARTUP="${XDG_CONFIG_HOME:-${HOME}/.config}/pythonrc"
 
 export ANDROID_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/android"
 
-# Alias definitions.
-if [ -f "${XDG_CONFIG_HOME:-${HOME}/.config}/bash/aliases" ]; then
-    . "${XDG_CONFIG_HOME:-${HOME}/.config}/bash/aliases"
-fi
-
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/.local/bin" ] ; then
     export PATH="$HOME/.local/bin:$PATH"
