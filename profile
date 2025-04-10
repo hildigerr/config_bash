@@ -1,17 +1,21 @@
 
 # Enforce XDG Base Directory Specification Compliance
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_STATE_HOME="$HOME/.local/state"
+
 export LESSHISTFILE="$XDG_STATE_HOME/less_history"
 export SQLITE_HISTORY="$XDG_STATE_HOME/sqlite_history"
 export NODE_REPL_HISTORY="$XDG_STATE_HOME/node_repl_history"
 
-export DVDCSS_CACHE="${XDG_CACHE_HOME:-${HOME}/.cache}/dvdcss"
+export DVDCSS_CACHE="$XDG_CACHE_HOME/dvdcss"
 
-export ASPELL_CONF="per-conf ${XDG_CONFIG_HOME:-${HOME}/.config}/aspell/aspell.conf; personal ${XDG_CONFIG_HOME:-${HOME}/.config}/aspell/en.pws; repl ${XDG_CONFIG_HOME:-${HOME}/.config}/aspell/en.prepl"
-export GTK2_RC_FILES="${XDG_CONFIG_HOME:-${HOME}/.config}/gtk-2.0/gtkrc"
-export PYTHONSTARTUP="${XDG_CONFIG_HOME:-${HOME}/.config}/pythonrc"
+export ASPELL_CONF="per-conf $XDG_CONFIG_HOME/aspell/aspell.conf; personal $XDG_CONFIG_HOME/aspell/en.pws; repl $XDG_CONFIG_HOME/aspell/en.prepl"
+export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
+export PYTHONSTARTUP="$XDG_CONFIG_HOME/pythonrc"
 
-export ANDROID_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/android"
+export ANDROID_HOME="$XDG_DATA_HOME/android"
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/.local/bin" ] ; then
