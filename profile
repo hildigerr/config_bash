@@ -15,8 +15,6 @@ export ASPELL_CONF="per-conf $XDG_CONFIG_HOME/aspell/aspell.conf; personal $XDG_
 export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
 export PYTHONSTARTUP="$XDG_CONFIG_HOME/pythonrc"
 
-export ANDROID_HOME="$XDG_DATA_HOME/android"
-
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/.local/bin" ] ; then
     export PATH="$HOME/.local/bin:$PATH"
