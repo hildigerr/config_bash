@@ -14,6 +14,7 @@ export DVDCSS_CACHE="$XDG_CACHE_HOME/dvdcss"
 export ASPELL_CONF="per-conf $XDG_CONFIG_HOME/aspell/aspell.conf; personal $XDG_CONFIG_HOME/aspell/en.pws; repl $XDG_CONFIG_HOME/aspell/en.prepl"
 export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
 export PYTHONSTARTUP="$XDG_CONFIG_HOME/pythonrc"
+export FCEUX_HOME="$XDG_CONFIG_HOME"
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/.local/bin" ] ; then
