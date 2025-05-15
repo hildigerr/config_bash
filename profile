@@ -16,6 +16,11 @@ export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
 export PYTHONSTARTUP="$XDG_CONFIG_HOME/pythonrc"
 export FCEUX_HOME="$XDG_CONFIG_HOME"
 
+# Override /etc/texmf/web2c/texmf.cnf
+export TEXMFHOME="$XDG_STATE_HOME/texmf"
+export TEXMFVAR="$XDG_CACHE_HOME/texlive"
+export TEXMFCONFIG="$XDG_CONFIG_HOME/texlive"
+
 # In $GNUPGHOME/gpg-agent.conf, add: "use-standard-socket"
 export GNUPGHOME="$XDG_CONFIG_HOME/gnupg"
 
