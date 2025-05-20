@@ -34,8 +34,6 @@ alias finger=pinky
 alias youtube-dl='yt-dlp'
 
 #  Games
-#Zelda-Ocarina of Time
-#alias oot='mupen64plus --fullscreen --nogui ~/Games/ROM/N64/Legend\ of\ Zelda\,\ The\ -\ Ocarina\ of\ Time\ \(U\)\ \(V1.2\)\ \[\!\].z64'
 
 # Interactive Fiction Ports
 alias ztrek='frotz ~/Games/IF/ztrek.z5'
