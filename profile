@@ -12,10 +12,15 @@ export NODE_REPL_HISTORY="$XDG_STATE_HOME/node_repl_history"
 export DVDCSS_CACHE="$XDG_CACHE_HOME/dvdcss"
 export NPM_CONFIG_CACHE="$XDG_CACHE_HOME/npm"
 
-export ASPELL_CONF="per-conf $XDG_CONFIG_HOME/aspell/aspell.conf; personal $XDG_CONFIG_HOME/aspell/en.pws; repl $XDG_CONFIG_HOME/aspell/en.prepl"
 export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
 export PYTHONSTARTUP="$XDG_CONFIG_HOME/pythonrc"
 export FCEUX_HOME="$XDG_CONFIG_HOME"
+
+# Configure Spell Checker
+ASPELL_PER_CONF="$XDG_CONFIG_HOME/aspell/aspell.conf"
+ASPELL_PERSONAL="$XDG_CONFIG_HOME/aspell/en.pws"
+ASPELL_REPL="$XDG_CONFIG_HOME/aspell/en.prepl"
+export ASPELL_CONF="per-conf $ASPELL_PER_CONF; personal $ASPELL_PERSONAL; repl $ASPELL_REPL"
 
 # Override /etc/texmf/web2c/texmf.cnf
 export TEXMFHOME="$XDG_STATE_HOME/texmf"
