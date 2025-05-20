@@ -10,6 +10,7 @@ export SQLITE_HISTORY="$XDG_STATE_HOME/sqlite_history"
 export NODE_REPL_HISTORY="$XDG_STATE_HOME/node_repl_history"
 
 export DVDCSS_CACHE="$XDG_CACHE_HOME/dvdcss"
+export NPM_CONFIG_CACHE="$XDG_CACHE_HOME/npm"
 
 export ASPELL_CONF="per-conf $XDG_CONFIG_HOME/aspell/aspell.conf; personal $XDG_CONFIG_HOME/aspell/en.pws; repl $XDG_CONFIG_HOME/aspell/en.prepl"
 export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
