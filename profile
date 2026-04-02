@@ -45,3 +45,11 @@ export EDITOR=ed
 export PACKAGER="Hildigerr Vergaray <Maintainer@YmirSystems.com>"
 export GPGKEY=CC81DADFA8ED700ECC226BD9688517121CD720CF
 export CHROOT="${HOME}/Workspace/arch-repo/chroot"
+
+mod() {
+  digit=0
+  case "$1" in *r*) digit=$((digit + 4)) ;; esac
+  case "$1" in *w*) digit=$((digit + 2)) ;; esac
+  case "$1" in *x*) digit=$((digit + 1)) ;; esac
+  echo $digit
+}
