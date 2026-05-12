@@ -25,6 +25,14 @@ if [ -f "${XDG_CONFIG_HOME:-${HOME}/.config}/bash/aliases" ]; then
     . "${XDG_CONFIG_HOME:-${HOME}/.config}/bash/aliases"
 fi
 
+# Korn cd
+function cd() {
+  if [ $# -eq 2 ]; then
+    builtin cd "${PWD/$1/$2}";
+  else builtin cd "$1";
+  fi
+}
+
 ##BANNERS:
 
 # echo
