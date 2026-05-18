@@ -29,7 +29,9 @@ fi
 function cd() {
   if [ $# -eq 2 ]; then
     builtin cd "${PWD/$1/$2}";
-  else builtin cd "$1";
+  elif [ $# -eq 1 ]; then
+    builtin cd "$1";
+  else builtin cd;
   fi
 }
 
