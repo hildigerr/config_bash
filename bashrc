@@ -35,6 +35,14 @@ function cd() {
   fi
 }
 
+function mod() {
+  digit=0
+  case "$1" in *r*) digit=$((digit + 4)) ;; esac
+  case "$1" in *w*) digit=$((digit + 2)) ;; esac
+  case "$1" in *x*) digit=$((digit + 1)) ;; esac
+  echo $digit
+}
+
 ##BANNERS:
 
 # echo
