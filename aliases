@@ -32,6 +32,7 @@ mime-name () {
 #  Alternatives
 alias finger=pinky
 alias youtube-dl='yt-dlp'
+alias pandoc='pandoc --pdf-engine=lualatex'
 
 #  Games
 
