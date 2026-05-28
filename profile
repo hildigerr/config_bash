@@ -7,6 +7,7 @@ export XDG_STATE_HOME="$HOME/.local/state"
 
 export LESSHISTFILE="$XDG_STATE_HOME/less_history"
 export SQLITE_HISTORY="$XDG_STATE_HOME/sqlite_history"
+export PYTHON_HISTORY="$XDG_STATE_HOME/python_history"
 export NODE_REPL_HISTORY="$XDG_STATE_HOME/node_repl_history"
 
 export DVDCSS_CACHE="$XDG_CACHE_HOME/dvdcss"
