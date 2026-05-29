@@ -17,6 +17,10 @@ export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
 export PYTHONSTARTUP="$XDG_CONFIG_HOME/pythonrc"
 export FCEUX_HOME="$XDG_CONFIG_HOME"
 
+export GEMINI_CLI_HOME="$XDG_DATA_HOME"
+export CLAUDE_CONFIG_DIR="$XDG_DATA_HOME/claude"
+export CODEX_HOME="$XDG_DATA_HOME/codex"
+
 # Configure Spell Checker
 ASPELL_PER_CONF="$XDG_CONFIG_HOME/aspell/aspell.conf"
 ASPELL_PERSONAL="$XDG_CONFIG_HOME/aspell/en.pws"
